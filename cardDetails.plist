@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ASpades</key>
+	<dict>
+		<key>card</key>
+		<string>AS</string>
+		<key>face</key>
+		<string>A</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Social</string>
+		<key>ruleExplaination</key>
+		<string>All players drink.</string>
+		<key>ruleKeyword</key>
+		<string>social</string>
+		<key>image</key>
+		<string>ace_of_spades</string>
+	</dict>
+	<key>KSpades</key>
+	<dict>
+		<key>card</key>
+		<string>KS</string>
+		<key>face</key>
+		<string>K</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Make A Rule</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card makes any rule they want. ANYTHING. Any player who does not follow the rule must drink. No more then 1 rule can be in affect at one time.</string>
+		<key>ruleKeyword</key>
+		<string>rule</string>
+		<key>image</key>
+		<string>king_of_spades</string>
+	</dict>
+	<key>QSpades</key>
+	<dict>
+		<key>card</key>
+		<string>QS</string>
+		<key>face</key>
+		<string>Q</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Thumb Queen</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card becomes Thumb Queen. Any time the player puts their thumb on a surface, all other players must put their thumbs on a surface as well. The last to do so must drink. Thumb Queen is lost when another player becomes Thumb Queen. All players Thumbs must reset after drinks are given (AKA, no saddlebagging).</string>
+		<key>ruleKeyword</key>
+		<string>thumbQueen</string>
+		<key>image</key>
+		<string>queen_of_spades</string>
+	</dict>
+	<key>JSpades</key>
+	<dict>
+		<key>card</key>
+		<string>JS</string>
+		<key>face</key>
+		<string>J</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Questions</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card looks at another player and asks any question. The other player then looks at any other player and asks another question. This continues until a player does not ask a question, or asks a question to the person who originally asked them the question. That player drinks. </string>
+		<key>ruleKeyword</key>
+		<string>questions</string>
+		<key>image</key>
+		<string>jack_of_spades</string>
+	</dict>
+	<key>10Spades</key>
+	<dict>
+		<key>card</key>
+		<string>10S</string>
+		<key>face</key>
+		<string>10</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Category</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card picks a category, and then names somthing from that category, then moving clockwise, each player names somethign from that category (Example: Car Models -&gt; F-150, Civic, Fusion, etc.). Player that cannot name something from that category takes a drink.</string>
+		<key>ruleKeyword</key>
+		<string>category</string>
+		<key>image</key>
+		<string>10_of_spades</string>
+	</dict>
+	<key>9Spades</key>
+	<dict>
+		<key>card</key>
+		<string>9S</string>
+		<key>face</key>
+		<string>9</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Rhyme Time</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card says one word, and working clockwise, each player has to say a word that rhymes with it. If the word does not rhyme, is a repeat, or the player takes too long, they have to drink.</string>
+		<key>ruleKeyword</key>
+		<string>rhyme</string>
+		<key>image</key>
+		<string>9_of_spades</string>
+	</dict>
+	<key>8Spades</key>
+	<dict>
+		<key>card</key>
+		<string>8S</string>
+		<key>face</key>
+		<string>8</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Pick A Mate</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card picks another player, who for the duriation of the game, they always drink at the same time. Whenever one player drinks, so does the other.</string>
+		<key>ruleKeyword</key>
+		<string>mate</string>
+		<key>image</key>
+		<string>8_of_spades</string>
+	</dict>
+	<key>7Spades</key>
+	<dict>
+		<key>card</key>
+		<string>7S</string>
+		<key>face</key>
+		<string>7</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Waterfall</string>
+		<key>ruleExplaination</key>
+		<string>All player begin to drink. No Player can stop drinking until the person to their right stops drinking. The first person allowed to stop drinking is the person who drew the card. If a player stops drinking to early, they must do a shot.</string>
+		<key>ruleKeyword</key>
+		<string>waterfall</string>
+		<key>image</key>
+		<string>7_of_spades</string>
+	</dict>
+	<key>6Spades</key>
+	<dict>
+		<key>card</key>
+		<string>6S</string>
+		<key>face</key>
+		<string>6</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Hands In The Air</string>
+		<key>ruleExplaination</key>
+		<string>Last player to put their hand in the air drinks</string>
+		<key>ruleKeyword</key>
+		<string>airHand</string>
+		<key>image</key>
+		<string>6_of_spades</string>
+	</dict>
+	<key>5Spades</key>
+	<dict>
+		<key>card</key>
+		<string>5S</string>
+		<key>face</key>
+		<string>5</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Black Take&apos;em Back</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew the card drinks 5</string>
+		<key>ruleKeyword</key>
+		<string>drinkTake</string>
+		<key>image</key>
+		<string>5_of_spades</string>
+	</dict>
+	<key>4Spades</key>
+	<dict>
+		<key>card</key>
+		<string>4S</string>
+		<key>face</key>
+		<string>4</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Black Take&apos;em Back</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew the card drinks 4</string>
+		<key>ruleKeyword</key>
+		<string>drinkTake</string>
+		<key>image</key>
+		<string>4_of_spades</string>
+	</dict>
+	<key>3Spades</key>
+	<dict>
+		<key>card</key>
+		<string>3S</string>
+		<key>face</key>
+		<string>3</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Black Take&apos;em Back</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew the card drinks 3</string>
+		<key>ruleKeyword</key>
+		<string>drinkTake</string>
+		<key>image</key>
+		<string>3_of_spades</string>
+	</dict>
+	<key>ADiamonds</key>
+	<dict>
+		<key>card</key>
+		<string>AD</string>
+		<key>face</key>
+		<string>A</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Social</string>
+		<key>ruleExplaination</key>
+		<string>All players drink.</string>
+		<key>ruleKeyword</key>
+		<string>social</string>
+		<key>image</key>
+		<string>ace_of_diamonds</string>
+	</dict>
+	<key>KDiamonds</key>
+	<dict>
+		<key>card</key>
+		<string>KD</string>
+		<key>face</key>
+		<string>K</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Make A Rule</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card makes any rule they want. ANYTHING. Any player who does not follow the rule must drink. No more then 1 rule can be in affect at one time.</string>
+		<key>ruleKeyword</key>
+		<string>rule</string>
+		<key>image</key>
+		<string>king_of_diamonds</string>
+	</dict>
+	<key>QDiamonds</key>
+	<dict>
+		<key>card</key>
+		<string>QD</string>
+		<key>face</key>
+		<string>Q</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Thumb Queen</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card becomes Thumb Queen. Any time the player puts their thumb on a surface, all other players must put their thumbs on a surface as well. The last to do so must drink. Thumb Queen is lost when another player becomes Thumb Queen. All players Thumbs must reset after drinks are given (AKA, no saddlebagging).</string>
+		<key>ruleKeyword</key>
+		<string>thumbQueen</string>
+		<key>image</key>
+		<string>queen_of_diamonds</string>
+	</dict>
+	<key>JDiamonds</key>
+	<dict>
+		<key>card</key>
+		<string>JD</string>
+		<key>face</key>
+		<string>J</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Questions</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card looks at another player and asks any question. The other player then looks at any other player and asks another question. This continues until a player does not ask a question, or asks a question to the person who originally asked them the question. That player drinks. </string>
+		<key>ruleKeyword</key>
+		<string>questions</string>
+		<key>image</key>
+		<string>jack_of_diamonds</string>
+	</dict>
+	<key>10Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>10D</string>
+		<key>face</key>
+		<string>10</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Category</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card picks a category, and then names somthing from that category, then moving clockwise, each player names somethign from that category (Example: Car Models -&gt; F-150, Civic, Fusion, etc.). Player that cannot name something from that category takes a drink.</string>
+		<key>ruleKeyword</key>
+		<string>category</string>
+		<key>image</key>
+		<string>10_of_diamonds</string>
+	</dict>
+	<key>9Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>9D</string>
+		<key>face</key>
+		<string>9</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Rhyme Time</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card says one word, and working clockwise, each player has to say a word that rhymes with it. If the word does not rhyme, is a repeat, or the player takes too long, they have to drink.</string>
+		<key>ruleKeyword</key>
+		<string>rhyme</string>
+		<key>image</key>
+		<string>9_of_diamonds</string>
+	</dict>
+	<key>8Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>8D</string>
+		<key>face</key>
+		<string>8</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Pick A Mate</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card picks another player, who for the duriation of the game, they always drink at the same time. Whenever one player drinks, so does the other.</string>
+		<key>ruleKeyword</key>
+		<string>mate</string>
+		<key>image</key>
+		<string>8_of_diamonds</string>
+	</dict>
+	<key>7Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>7D</string>
+		<key>face</key>
+		<string>7</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Waterfall</string>
+		<key>ruleExplaination</key>
+		<string>All player begin to drink. No Player can stop drinking until the person to their right stops drinking. The first person allowed to stop drinking is the person who drew the card. If a player stops drinking to early, they must do a shot.</string>
+		<key>ruleKeyword</key>
+		<string>waterfall</string>
+		<key>image</key>
+		<string>7_of_diamonds</string>
+	</dict>
+	<key>6Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>6D</string>
+		<key>face</key>
+		<string>6</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Hands In The Air</string>
+		<key>ruleExplaination</key>
+		<string>Last player to put their hand in the air drinks</string>
+		<key>ruleKeyword</key>
+		<string>airHand</string>
+		<key>image</key>
+		<string>6_of_diamonds</string>
+	</dict>
+	<key>5Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>5D</string>
+		<key>face</key>
+		<string>5</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Red Give&apos;em Out</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card give out 5 drinks to any player/players, and can divide them up anyway they like.</string>
+		<key>ruleKeyword</key>
+		<string>drinkGive</string>
+		<key>image</key>
+		<string>5_of_diamonds</string>
+	</dict>
+	<key>4Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>4D</string>
+		<key>face</key>
+		<string>4</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Red Give&apos;em Out</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card give out 4 drinks to any player/players, and can divide them up anyway they like.</string>
+		<key>ruleKeyword</key>
+		<string>drinkGive</string>
+		<key>image</key>
+		<string>4_of_diamonds</string>
+	</dict>
+	<key>3Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>3D</string>
+		<key>face</key>
+		<string>3</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Red Give&apos;em Out</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card give out 3 drinks to any player/players, and can divide them up anyway they like.</string>
+		<key>ruleKeyword</key>
+		<string>drinkGive</string>
+		<key>image</key>
+		<string>3_of_diamonds</string>
+	</dict>
+	<key>AClubs</key>
+	<dict>
+		<key>card</key>
+		<string>AC</string>
+		<key>face</key>
+		<string>A</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Social</string>
+		<key>ruleExplaination</key>
+		<string>All players drink.</string>
+		<key>ruleKeyword</key>
+		<string>social</string>
+		<key>image</key>
+		<string>ace_of_clubs</string>
+	</dict>
+	<key>KClubs</key>
+	<dict>
+		<key>card</key>
+		<string>KC</string>
+		<key>face</key>
+		<string>K</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Make A Rule</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card makes any rule they want. ANYTHING. Any player who does not follow the rule must drink. No more then 1 rule can be in affect at one time.</string>
+		<key>ruleKeyword</key>
+		<string>rule</string>
+		<key>image</key>
+		<string>king_of_clubs</string>
+	</dict>
+	<key>QClubs</key>
+	<dict>
+		<key>card</key>
+		<string>QC</string>
+		<key>face</key>
+		<string>Q</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Thumb Queen</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card becomes Thumb Queen. Any time the player puts their thumb on a surface, all other players must put their thumbs on a surface as well. The last to do so must drink. Thumb Queen is lost when another player becomes Thumb Queen. All players Thumbs must reset after drinks are given (AKA, no saddlebagging).</string>
+		<key>ruleKeyword</key>
+		<string>thumbQueen</string>
+		<key>image</key>
+		<string>queen_of_clubs</string>
+	</dict>
+	<key>JClubs</key>
+	<dict>
+		<key>card</key>
+		<string>JC</string>
+		<key>face</key>
+		<string>J</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Questions</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card looks at another player and asks any question. The other player then looks at any other player and asks another question. This continues until a player does not ask a question, or asks a question to the person who originally asked them the question. That player drinks. </string>
+		<key>ruleKeyword</key>
+		<string>questions</string>
+		<key>image</key>
+		<string>jack_of_clubs</string>
+	</dict>
+	<key>10Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>10C</string>
+		<key>face</key>
+		<string>10</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Category</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card picks a category, and then names somthing from that category, then moving clockwise, each player names somethign from that category (Example: Car Models -&gt; F-150, Civic, Fusion, etc.). Player that cannot name something from that category takes a drink.</string>
+		<key>ruleKeyword</key>
+		<string>category</string>
+		<key>image</key>
+		<string>10_of_clubs</string>
+	</dict>
+	<key>9Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>9C</string>
+		<key>face</key>
+		<string>9</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Rhyme Time</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card says one word, and working clockwise, each player has to say a word that rhymes with it. If the word does not rhyme, is a repeat, or the player takes too long, they have to drink.</string>
+		<key>ruleKeyword</key>
+		<string>rhyme</string>
+		<key>image</key>
+		<string>9_of_clubs</string>
+	</dict>
+	<key>8Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>8C</string>
+		<key>face</key>
+		<string>8</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Pick A Mate</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card picks another player, who for the duriation of the game, they always drink at the same time. Whenever one player drinks, so does the other.</string>
+		<key>ruleKeyword</key>
+		<string>mate</string>
+		<key>image</key>
+		<string>8_of_clubs</string>
+	</dict>
+	<key>7Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>7C</string>
+		<key>face</key>
+		<string>7</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Waterfall</string>
+		<key>ruleExplaination</key>
+		<string>All player begin to drink. No Player can stop drinking until the person to their right stops drinking. The first person allowed to stop drinking is the person who drew the card. If a player stops drinking to early, they must do a shot.</string>
+		<key>ruleKeyword</key>
+		<string>waterfall</string>
+		<key>image</key>
+		<string>7_of_clubs</string>
+	</dict>
+	<key>6Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>6C</string>
+		<key>face</key>
+		<string>6</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Hands In The Air</string>
+		<key>ruleExplaination</key>
+		<string>Last player to put their hand in the air drinks</string>
+		<key>ruleKeyword</key>
+		<string>airHand</string>
+		<key>image</key>
+		<string>6_of_clubs</string>
+	</dict>
+	<key>5Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>5C</string>
+		<key>face</key>
+		<string>5</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Black Take&apos;em Back</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew the card drinks 5</string>
+		<key>ruleKeyword</key>
+		<string>drinkTake</string>
+		<key>image</key>
+		<string>5_of_clubs</string>
+	</dict>
+	<key>4Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>4C</string>
+		<key>face</key>
+		<string>4</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Black Take&apos;em Back</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew the card drinks 4</string>
+		<key>ruleKeyword</key>
+		<string>drinkTake</string>
+		<key>image</key>
+		<string>4_of_clubs</string>
+	</dict>
+	<key>3Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>3C</string>
+		<key>face</key>
+		<string>3</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Black Take&apos;em Back</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew the card drinks 3</string>
+		<key>ruleKeyword</key>
+		<string>drinkTake</string>
+		<key>image</key>
+		<string>3_of_clubs</string>
+	</dict>
+	<key>AHearts</key>
+	<dict>
+		<key>card</key>
+		<string>AH</string>
+		<key>face</key>
+		<string>A</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Social</string>
+		<key>ruleExplaination</key>
+		<string>All players drink.</string>
+		<key>ruleKeyword</key>
+		<string>social</string>
+		<key>image</key>
+		<string>ace_of_hearts</string>
+	</dict>
+	<key>KHearts</key>
+	<dict>
+		<key>card</key>
+		<string>KH</string>
+		<key>face</key>
+		<string>K</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Make A Rule</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card makes any rule they want. ANYTHING. Any player who does not follow the rule must drink. No more then 1 rule can be in affect at one time.</string>
+		<key>ruleKeyword</key>
+		<string>rule</string>
+		<key>image</key>
+		<string>king_of_hearts</string>
+	</dict>
+	<key>QHearts</key>
+	<dict>
+		<key>card</key>
+		<string>QH</string>
+		<key>face</key>
+		<string>Q</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Thumb Queen</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card becomes Thumb Queen. Any time the player puts their thumb on a surface, all other players must put their thumbs on a surface as well. The last to do so must drink. Thumb Queen is lost when another player becomes Thumb Queen. All players Thumbs must reset after drinks are given (AKA, no saddlebagging).</string>
+		<key>ruleKeyword</key>
+		<string>thumbQueen</string>
+		<key>image</key>
+		<string>queen_of_hearts</string>
+	</dict>
+	<key>JHearts</key>
+	<dict>
+		<key>card</key>
+		<string>JH</string>
+		<key>face</key>
+		<string>J</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Questions</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card looks at another player and asks any question. The other player then looks at any other player and asks another question. This continues until a player does not ask a question, or asks a question to the person who originally asked them the question. That player drinks. </string>
+		<key>ruleKeyword</key>
+		<string>questions</string>
+		<key>image</key>
+		<string>jack_of_hearts</string>
+	</dict>
+	<key>10Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>10H</string>
+		<key>face</key>
+		<string>10</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Category</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card picks a category, and then names somthing from that category, then moving clockwise, each player names somethign from that category (Example: Car Models -&gt; F-150, Civic, Fusion, etc.). Player that cannot name something from that category takes a drink.</string>
+		<key>ruleKeyword</key>
+		<string>category</string>
+		<key>image</key>
+		<string>10_of_hearts</string>
+	</dict>
+	<key>9Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>9H</string>
+		<key>face</key>
+		<string>9</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Rhyme Time</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card says one word, and working clockwise, each player has to say a word that rhymes with it. If the word does not rhyme, is a repeat, or the player takes too long, they have to drink.</string>
+		<key>ruleKeyword</key>
+		<string>rhyme</string>
+		<key>image</key>
+		<string>9_of_hearts</string>
+	</dict>
+	<key>8Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>8H</string>
+		<key>face</key>
+		<string>8</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Pick A Mate</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card picks another player, who for the duriation of the game, they always drink at the same time. Whenever one player drinks, so does the other.</string>
+		<key>ruleKeyword</key>
+		<string>mate</string>
+		<key>image</key>
+		<string>8_of_hearts</string>
+	</dict>
+	<key>7Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>7H</string>
+		<key>face</key>
+		<string>7</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Waterfall</string>
+		<key>ruleExplaination</key>
+		<string>All player begin to drink. No Player can stop drinking until the person to their right stops drinking. The first person allowed to stop drinking is the person who drew the card. If a player stops drinking to early, they must do a shot.</string>
+		<key>ruleKeyword</key>
+		<string>waterfall</string>
+		<key>image</key>
+		<string>7_of_hearts</string>
+	</dict>
+	<key>6Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>6H</string>
+		<key>face</key>
+		<string>6</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Hands In The Air</string>
+		<key>ruleExplaination</key>
+		<string>Last player to put their hand in the air drinks</string>
+		<key>ruleKeyword</key>
+		<string>airHand</string>
+		<key>image</key>
+		<string>6_of_hearts</string>
+	</dict>
+	<key>5Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>5H</string>
+		<key>face</key>
+		<string>5</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Red Give&apos;em Out</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card gives out 5 drinks to any player/players, and can divide them up anyway they like.</string>
+		<key>ruleKeyword</key>
+		<string>drinkGive</string>
+		<key>image</key>
+		<string>5_of_hearts</string>
+	</dict>
+	<key>4Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>4H</string>
+		<key>face</key>
+		<string>4</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Red Give&apos;em Out</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card gives out 4 drinks to any player/players, and can divide them up anyway they like.</string>
+		<key>ruleKeyword</key>
+		<string>drinkGive</string>
+		<key>image</key>
+		<string>4_of_hearts</string>
+	</dict>
+	<key>3Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>3H</string>
+		<key>face</key>
+		<string>3</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Red Give&apos;em Out</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card gives out 3 drinks to any player/players, and can divide them up anyway they like.</string>
+		<key>ruleKeyword</key>
+		<string>drinkGive</string>
+		<key>image</key>
+		<string>3_of_hearts</string>
+	</dict>
+	<key>2Hearts</key>
+	<dict>
+		<key>card</key>
+		<string>2H</string>
+		<key>face</key>
+		<string>2</string>
+		<key>suit</key>
+		<string>H</string>
+		<key>ruleName</key>
+		<string>Red Give&apos;em Out</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card gives out 2 drinks to any player/players, and can divide them up anyway they like.</string>
+		<key>ruleKeyword</key>
+		<string>drinkGive</string>
+		<key>image</key>
+		<string>2_of_hearts</string>
+	</dict>
+	<key>2Diamonds</key>
+	<dict>
+		<key>card</key>
+		<string>2D</string>
+		<key>face</key>
+		<string>2</string>
+		<key>suit</key>
+		<string>D</string>
+		<key>ruleName</key>
+		<string>Red Give&apos;em Out</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew card give out 2 drinks to any player/players, and can divide them up anyway they like.</string>
+		<key>ruleKeyword</key>
+		<string>drinkGive</string>
+		<key>image</key>
+		<string>2_of_diamonds</string>
+	</dict>
+	<key>2Clubs</key>
+	<dict>
+		<key>card</key>
+		<string>2C</string>
+		<key>face</key>
+		<string>2</string>
+		<key>suit</key>
+		<string>C</string>
+		<key>ruleName</key>
+		<string>Black Take&apos;em Back</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew the card drinks 2</string>
+		<key>ruleKeyword</key>
+		<string>drinkTake</string>
+		<key>image</key>
+		<string>2_of_clubs</string>
+	</dict>
+	<key>2Spades</key>
+	<dict>
+		<key>card</key>
+		<string>2S</string>
+		<key>face</key>
+		<string>2</string>
+		<key>suit</key>
+		<string>S</string>
+		<key>ruleName</key>
+		<string>Black Take&apos;em Back</string>
+		<key>ruleExplaination</key>
+		<string>Player who drew the card drinks 2</string>
+		<key>ruleKeyword</key>
+		<string>drinkTake</string>
+		<key>image</key>
+		<string>2_of_spades</string>
+	</dict>
+</dict>
+</plist>
